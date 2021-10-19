@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBox", "PiBox.csproj", "{EDCE3D6C-C1A4-4E6F-9C23-F7430EF5FF2C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "S3Manager", "..\S3Manager\S3Manager.vdproj", "{CD816D89-B05C-4AF7-9CE2-84AE45D81A2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDCE3D6C-C1A4-4E6F-9C23-F7430EF5FF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCE3D6C-C1A4-4E6F-9C23-F7430EF5FF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCE3D6C-C1A4-4E6F-9C23-F7430EF5FF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCE3D6C-C1A4-4E6F-9C23-F7430EF5FF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD816D89-B05C-4AF7-9CE2-84AE45D81A2C}.Debug|Any CPU.ActiveCfg = Debug
+		{CD816D89-B05C-4AF7-9CE2-84AE45D81A2C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7341BBB1-F5C1-4CC9-B712-6423701D7F4F}
+	EndGlobalSection
+EndGlobal
